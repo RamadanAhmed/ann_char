@@ -1,0 +1,5 @@
+{
+    "cmake.configureSettings": {
+        "BUILD_SHARED_LIBS": "ON"
+    },
+}

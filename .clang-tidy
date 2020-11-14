@@ -1,0 +1,16 @@
+---
+Checks:          '*,-google-runtime-references,-readability-else-after-return,-readability-avoid-const-params-in-decls,-hicpp-signed-bitwise,-cppcoreguidelines-pro-bounds-constant-array-index,-llvm-header-guard,-readability-static-accessed-through-instance,-google-readability-todo'
+WarningsAsErrors: '*'
+HeaderFilterRegex: '.*'
+AnalyzeTemporaryDtors: false
+FormatStyle:     none
+CheckOptions:
+  - { key: readability-identifier-naming.NamespaceCase,       value: camelBack  }
+  - { key: readability-identifier-naming.ClassCase,           value: CamelCase  }
+  - { key: readability-identifier-naming.PrivateMemberPrefix, value: _          }
+  - { key: readability-identifier-naming.PrivateMemberCase,   value: CamelCase  }
+  - { key: readability-identifier-naming.StructCase,          value: CamelCase  }
+  - { key: readability-identifier-naming.FunctionCase,        value: camelBack  }
+  - { key: readability-identifier-naming.VariableCase,        value: camelBack  }
+  - { key: readability-identifier-naming.GlobalConstantCase,  value: UPPER_CASE }
+...
