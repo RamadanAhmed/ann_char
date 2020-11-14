@@ -1,6 +1,12 @@
+I'm trying to update the library to use modern c++
+so first I added CMake support
+then I will try to edit the code to be more c++
+
+Original Readme.txt
+----------------------------------
 ANN: Approximate Nearest Neighbors
 Version: 1.1.2
-Release date: Jan 27, 2010
+Release date: Nov 14, 2020
 ----------------------------------------------------------------------------
 Copyright (c) 1997-2010 University of Maryland and Sunil Arya and David
 Mount. All Rights Reserved.  See Copyright.txt and License.txt for
@@ -68,3 +74,7 @@ History
     Updated old source comments for GNU LPL.
   Version 1.1.2  01/27/10
     Fixed minor compilation bugs for new versions of gcc
+  Version 1.1.2  11/14/2020
+    Added CMake Support for the project by Ramadan Ahmed
+  
+  
