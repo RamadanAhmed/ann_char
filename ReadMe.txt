@@ -1,6 +1,6 @@
 I'm trying to update the library to use modern c++
 so first I added CMake support
-then I will try to edit the code to be more c++
+then I will try to edit the code to be more modern c++
 
 Original Readme.txt
 ----------------------------------
